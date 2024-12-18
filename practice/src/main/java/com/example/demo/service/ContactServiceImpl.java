@@ -10,7 +10,7 @@ import com.example.demo.repository.ContactRepository;
 @Service
 public class ContactServiceImpl implements ContactService {
 	@Autowired
-	  private ContactRepository contactRepository;
+	private ContactRepository contactRepository;
 
 	@Override
 	public void saveContact(ContactForm contactForm) {
